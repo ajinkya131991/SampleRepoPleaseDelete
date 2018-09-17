@@ -16,14 +16,14 @@ public class TestScript
 		driver = new FirefoxDriver();
 	}
 	@Test
-    public void test()
+    public void test() 
     {
     	
-        String baseUrl = "http://demo.guru99.com/test/newtours/";
+        String Url = "http://demo.guru99.com/test/newtours/";
         String expectedTitle = "Welcome: Mercury Tours";
         String actualTitle = "";
 
-        driver.get(baseUrl);
+        driver.get(Url);
 
         actualTitle = driver.getTitle();
         
